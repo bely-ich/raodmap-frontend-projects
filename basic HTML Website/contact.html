@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Responsive meta tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--SEO meta tags-->
+    <title>Contact - Basic HTML Website</title> 
+    <meta name="description" content="Contact us at the Basic HTML Website.">
+    <meta name="keywords" content="Contact, Basic HTML Website, HTML Contact">
+    <meta name="author" content="Ichbel">
+    <!--icon-->
+    <link rel="icon" href="https://thumbs.dreamstime.com/b/geometric-red-black-et-monogram-icon-design-419239424.jpg" type="image/x-icon">
+    <!--links to css-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img width="75" src="https://thumbs.dreamstime.com/b/geometric-red-black-et-monogram-icon-design-419239424.jpg" alt="Basic HTML Website Logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--main content-->
+    <main class="main-content">
+        <section class="contact">
+           <fieldset>
+            <legend>Contact Us</legend>
+            <form action="submit.php" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+           </fieldset>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Basic HTML Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
